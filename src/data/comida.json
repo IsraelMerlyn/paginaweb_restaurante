@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Hamburgesa",
+      "price": "$50"
+      
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+       "price": "$50"
+    },
+    {
+      "id": 3,
+      "name": "Alitas",
+       "price": "$50"
+    }
+  ]
+  

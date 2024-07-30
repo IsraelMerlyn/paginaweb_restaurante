@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Naranjada",
+      "price": "$50"
+      
+    },
+    {
+      "id": 2,
+      "name": "Coca",
+       "price": "$50"
+    },
+    {
+      "id": 3,
+      "name": "Coco Loco",
+       "price": "$50"
+    }
+  ]
+  
