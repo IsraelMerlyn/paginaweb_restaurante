@@ -4,7 +4,8 @@ import AboutImg from "../utils/img/about-img.jpg";
 import { Link } from "react-router-dom";
 import Comida from "../data/comida.json";
 import Bebidas from "../data/bebidas.json";
-
+import { ImageGallery } from "../components/ImageGallery";
+import { ContactInfo } from "../components/ContactInfo";
 export const Home = () => {
   return (
     <>
@@ -56,7 +57,9 @@ export const Home = () => {
         </div>
         <div className="menu-section py-5 text-ligth shadow">
           <div className="container d-flex-column align-items-center">
-            <h2 className="fs-1 mb-5 text-uppercase fw-bold text-white">Favoritos</h2>
+            <h2 className="fs-1 mb-5 text-uppercase fw-bold text-white">
+              Favoritos
+            </h2>
             <div className="row mb-5 w-100">
               <div className="col-lg-6 d-flex flex-column align-items center mb-5 lg-0">
                 <h3 className="fs-2 mb-5 text-white">Comida</h3>
@@ -94,6 +97,20 @@ export const Home = () => {
                     </>
                   ))}
                 </ul>
+              </div>
+            </div>
+            <MenuB></MenuB>
+          </div>
+        </div>
+        <ImageGallery />
+        <div className="bg-dark text-light py-5 shadow">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 d-flex flex-colum align-items-center justify-content-center mb-5 mb-lg-0">
+                <ContactInfo />
+              </div>
+              <div className="col-lg-6 d-flex justify-content-center">
+                <img className="img-fluid w-50" src="https://images.unsplash.com/photo-1660715683691-d1614d1dd361?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
               </div>
             </div>
           </div>
